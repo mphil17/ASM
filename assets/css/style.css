@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Roboto&display=swap');
+
+/*------------------navigation bar-----------*/
+
+nav {
+    background-color: #051094;
+    display: inline;
+    width: 66%!important;
+    height: 50px;
+    padding-top: 0px;
+    padding-right: 100px!important;
+    margin: 0;
+}
+
+.menu-bar {
+    margin: 0;
+
+}
+
+ul {
+    float: right;
+}
+
+
+ul li {
+    font-family: "Baloo2", sans-serif;
+    padding: 7px 50px;
+    background-color: rgba(52, 214, 255, 0.2);
+    text-align: center;
+    height: 50px;
+    margin: 0;
+}
+
+ul li span {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.logo {
+    /*background-image: url("assets/images/asm.png");*/
+    background-color: black;
+    display: inline;
+    width: 33%!important;
+}
