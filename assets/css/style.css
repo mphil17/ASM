@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Roboto&display=swap');
 
+/*------------------general-----------*/
+p {
+    color:#fafafa;
+    font-size: 20px;
+}
+
+section {
+    height: 400px;
+}
+
 /*------------------navigation bar-----------*/
 
 nav {
-    background-color: #051094;
+    background-color: #040c66;
     display: inline-block;
     width: 92%!important;
     padding-top: 0px;
@@ -58,7 +68,10 @@ ul li span {
     background-image: url(../images/https://a4a2de7a-6471-46d1-8124-6e849365be26.ws-eu01.gitpod.io/files/download/?id=bb67a526-2d8a-4951-bb11-c9cb0bc4d04e);
     background-repeat: no-repeat;
     background-color:rgb(41, 41, 48);
-    height: 400px;
+}
+
+.bottom-section {
+    background-color:#040c66;
 }
 
 #title {
@@ -66,8 +79,10 @@ ul li span {
     font-family: "Roboto", sans-serif;
     font-size: 5em;
     color: #fafafa;
+}
 
-
+.main-heading {
+    padding: 30px;
 }
 
 
