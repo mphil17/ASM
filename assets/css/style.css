@@ -1,13 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Roboto&display=swap');
 
 /*------------------general-----------*/
-p {
+p, h2, h3, span{
     color:#fafafa;
     font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
 }
 
 section {
     height: 400px;
+}
+
+i {
+    text-align: center;
+    color: #029609;
+    display: inline;
 }
 
 /*------------------navigation bar-----------*/
@@ -19,7 +31,6 @@ nav {
     padding-top: 0px;
     padding-right: 100px!important;
     margin: 0;
-   /* position: fixed;*/
 }
 
 ul {
@@ -27,7 +38,6 @@ ul {
 }
 
 #logo {
-    /*background-image: url("assets/images/asm.png");*/
     background-color: rgb(41, 41, 48);
     display: inline;
     text-align: center;
@@ -86,4 +96,70 @@ ul li span {
 }
 
 
+/*------------------second section-----------*/
 
+.stats {
+    padding-top: 50px;
+}
+
+.stat-given {
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    
+}
+
+/*------------------About me-----------*/
+
+#my-photo {
+    width: 70%;
+    height: 70%%;
+    padding-top: 50px;
+}
+
+.about-me {
+    margin-top: 20px;
+}
+
+.offer {
+    text-align: center;
+}
+
+.free-offer {
+    text-transform: uppercase;
+    color: #dddd06;
+}
+
+/*------------------Prices-----------*/
+
+.price-box {
+    height: 300px;
+    width: 100%;
+    margin: 10px;
+    opacity: 0.8;
+}
+
+#bronze {
+    background-color: #c57b35;
+}
+
+#silver {
+    background-color: rgb(175, 172, 172);
+}
+
+#gold {
+    background-color: rgb(226, 193, 4);
+}
+
+.price-text {
+    color: #141414;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.price-details {
+    margin-left: 20px;
+    width: 300px;
+    text-align: center;
+}

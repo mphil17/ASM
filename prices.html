@@ -12,46 +12,46 @@
 <body>
     <header>
     <!--top row-->
-        <div class="row">
-        <!--logo-->
-            <div class="col-md-4 logo">
+    <div class="row">
+          <!--logo-->
+            <div class="col-1.8" id="logo">
                 <a href="index.html">
-                Hello
+                ASM
                 </a>
             </div>
         <!--navigation bar-->
-         <nav>
-         <div class="row" id="nav">
-            <div class="col">
+         <nav class="container-fluid no-gutters">
+              <div class="col-12">  
                 <ul class="list-inline">
-                    <li class="list-inline-item">
-                        <a href="index.html">
-                        Home
-                        </a>
+                    <a href="index.html">
+                    <li class="list-inline-item hvr-box-shadow-outset">
+                        <span>Home</span>   
                     </li>
-                     <li class="list-inline-item">
-                        <a href="#">
-                        About Me
-                        </a>
+                    </a>
+                    <a href="about.html">
+                     <li class="list-inline-item hvr-box-shadow-outset">                    
+                        <span>About Me</span>
                     </li>
-                     <li class="list-inline-item">
-                        <a href="#">
-                        Prices
-                        </a>
+                    </a>
+                    <a href="prices.html">
+                     <li class="list-inline-item hvr-box-shadow-outset">  
+                        <span>Prices</span>   
                     </li>
-                    <li class="list-inline-item">
-                        <a href="#">
-                        FAQ
-                        </a>
+                    </a>
+                    <a href="faq.html">
+                    <li class="list-inline-item hvr-box-shadow-outset">    
+                        <span>FAQ</span>  
                     </li>
-                    <li class="list-inline-item">
-                        <a href="#">
-                        Contact
-                        </a>
+                    </a>
+                    <a href="contact.html">
+                    <li class="list-inline-item hvr-box-shadow-outset"> 
+                        <span>Contact</span>
                     </li>
+                     </a>
                 </ul>
-            </div>
-        </div>
+              </div>  
+            
+        
          </nav>
     </div>
         
@@ -59,5 +59,43 @@
        
     
     </header>
+     <section class = "top-section">
+        <div class="row">
+        <!--heading and special offer-->
+            <div class="col">
+                <div class = "main-heading">
+                <h2>Prices</h2>
+                <h2>Special Offer</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row offer">
+            <div class="col">
+                <p>First month <span class = "free-offer"><strong>free</strong></span> with no obligation.</p>
+            </div>
+        </div>
+    
+    </section>
+    <section class="bottom-section">
+        <div class="row justify-content-center">
+            <div class="col-lg-2 col-sm-8 price-box" id="bronze">
+                <h2 class="price-text"><strong>Bronze</strong></h2>
+                <br><h3 class = "price-text">£40<br>per month<br></h3>
+                <br><i class="fa fa-check-square"><span class = "price-text price-details">3 posts per week</span></i>
+            </div>
+            <div class="col-lg-2 col-sm-8 price-box" id="silver">
+                <h2 class="price-text"><strong>Silver</strong></h2>
+                <br><h3 class = "price-text">£60<br>per month</h3>
+                <br><i class="fa fa-check-square"><span class = "price-text price-details">5 posts per week</span></i>
+            </div>
+            <div class="col-lg-2 col-sm-8 price-box" id="gold">
+                <h2 class="price-text"><strong>Gold</strong></h2>
+                <br><h3 class = "price-text">£80<br>per month</h3>
+                <br><i class="fa fa-check-square"><span class = "price-text price-details">7 posts per week</span></i>
+            </div>
+        </div>
+   
+    
+    </section>
     </body>
     </html>
