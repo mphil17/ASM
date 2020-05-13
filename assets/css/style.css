@@ -16,11 +16,10 @@ section {
     height: 400px;
 }
 
-i {
-    text-align: center;
-    color: #029609;
-    display: inline;
-}
+section .sub-title {
+    font-size: 40px;
+} 
+
 
 /*------------------navigation bar-----------*/
 
@@ -38,7 +37,7 @@ ul {
 }
 
 #logo {
-    background-color: rgb(41, 41, 48);
+    background-color: #343738;
     display: inline;
     text-align: center;
     padding: 5px 20px;
@@ -131,6 +130,13 @@ ul li span {
     color: #dddd06;
 }
 
+.stats i {
+    text-align: center;
+    color: #dddd06;
+    display: inline;
+}
+}
+
 /*------------------Prices-----------*/
 
 .price-box {
@@ -167,7 +173,20 @@ ul li span {
 
 /*------------------Footer-----------*/
 
-.footer {
-    color: black;
-    font-size: 12px;
+footer {
+    background-color: #007cbe;
+    height: 50px;
+}
+
+.footer-links {
+    color: #fafafa;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    float: right;
+    padding: 10px;
+    text-decoration: none!important;
+}
+
+.footer-links:hover {
+    color: #dddd06;
 }
