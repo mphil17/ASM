@@ -47,7 +47,7 @@ ul {
     color: #fafafa;
     font-size: 70px;
     letter-spacing: -15px;
-    text-decoration: none!important;
+    text-decoration: none;
 }
 
 
@@ -69,18 +69,17 @@ ul li span {
 
 
 .hvr-box-shadow-outset {
-    vertical-align: baseline!important;
+    vertical-align: baseline;
 }
 
 /*------------------first section-----------*/
 .top-section {
-    background-image: url(../images/https://a4a2de7a-6471-46d1-8124-6e849365be26.ws-eu01.gitpod.io/files/download/?id=bb67a526-2d8a-4951-bb11-c9cb0bc4d04e);
-    background-repeat: no-repeat;
     background-color:rgb(0, 86, 133);
 }
 
 .bottom-section {
-    background-image: url("..images/social-media.jpg");
+    background-image: url("../images/social-media.jpg");
+    background-repeat: no-repeat;
     background-color:#343738;
 }
 
