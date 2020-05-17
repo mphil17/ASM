@@ -80,6 +80,9 @@ ul li span {
 .bottom-section {
     background-image: url("../images/social-media.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*if background image doesn't load*/
     background-color:#343738;
 }
 
@@ -146,15 +149,19 @@ ul li span {
 }
 
 #bronze {
-    background-color: #c57b35;
+    background-color: rgba(197, 123, 52, 0.8);
+    padding-bottom: 40px;
 }
 
 #silver {
-    background-color: rgb(175, 172, 172);
+    background-color: rgba(175, 172, 172, 0.8);
+    margin: 0px 10px;
+    padding-bottom: 40px;
 }
 
 #gold {
-    background-color: rgb(226, 193, 4);
+    background-color: rgba(226, 193, 4, 0.8);
+    padding-bottom: 40px;
 }
 
 .price-text {
@@ -169,6 +176,41 @@ ul li span {
     width: 300px;
     text-align: center;
 }
+
+
+/*------------------Contact-----------*/
+
+input {
+    width: 300px;
+}
+
+.contact-form {
+    text-align: center;
+}
+
+.message-box {
+    height: 100px;
+}
+
+.label {
+    color: #fafafa;
+    font-family: "Roboto", sans-serif;
+}
+
+.submit-btn {
+    color: #141414;
+    background-color: #dddd06;
+    border-radius: 5px;
+    width: 190px;
+    margin-top: 20px;
+}
+
+.submit-btn:hover {
+    background-color: #016901;
+    color: #fafafa; 
+}
+
+
 
 /*------------------Footer-----------*/
 
