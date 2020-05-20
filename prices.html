@@ -19,9 +19,9 @@
                 ASM
                 </a>
             </div>
-        <!--navigation bar-->
+      <!--navigation bar for larger screen sizes-->
          <nav class="container-fluid no-gutters">
-              <div class="col-12">  
+              <div class="col-12 nav-large">  
                 <ul class="list-inline">
                     <a href="index.html">
                     <li class="list-inline-item hvr-box-shadow-outset">
@@ -50,10 +50,22 @@
                      </a>
                 </ul>
               </div>  
-            
+            <!--dropdown menu for smaller screen sizes-->
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                 </button>
+                 <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                     <button class="dropdown-item" type="button">Action</button>
+                     <button class="dropdown-item" type="button">Another action</button>
+                     <button class="dropdown-item" type="button">Something else here</button>
+                 </div>
+            </div>
         
          </nav>
+         
     </div>
+            
         
         
        
@@ -61,13 +73,22 @@
     </header>
      <section class = "top-section">
         <div class="row">
-        <!--heading and special offer-->
-            <div class="col">
+        <!--image to the left side of the heading in left column-->
+            <div class="col-4">
+                <img src="assets/images/hastag.jpg" alt="hashtag" id="hashtag-image">
+            </div>
+            <!--heading and special offer in middle column-->
+            <div class="col-4">
                 <div class = "main-heading">
                 <h2 class = "sub-title">Prices</h2>
                 <h2><em>Special Offer</em></h2>
                 </div>
             </div>
+            <!--image to the right side of the heading in right column-->
+             <div class="col-4">
+                <img src="assets/images/likes.jpg" alt="likes" id="likes-image">
+            </div>
+            
         </div>
         <div class="row offer">
             <div class="col">

@@ -23,17 +23,28 @@ section .sub-title {
 
 /*------------------navigation bar-----------*/
 
-nav {
+.nav-large {
+    visibility: hidden;
+    display: none;
     background-color: #03045E;
-    display: inline-block;
     width: 92%!important;
     padding-top: 0px;
     padding-right: 100px!important;
     margin: 0;
 }
 
+.dropdown {
+    display: inline;
+    float: right;
+}
+
+
+
+
 ul {
     float: right;
+    visibility: hidden;
+    display: none;
 }
 
 #logo {
@@ -59,17 +70,23 @@ ul li {
     text-align: center;
     height: 100px;
     margin: 0;
+    visibility: hidden;
+    display: none;
 }
 
 ul li span {
     text-decoration: none;
     font-size: 25px;
     color: #fafafa;
+    visibility: hidden;
+    display: none;
 }
 
 
 .hvr-box-shadow-outset {
     vertical-align: baseline;
+    visibility: hidden;
+    display: none;
 }
 
 /*------------------first section-----------*/
@@ -137,9 +154,27 @@ ul li span {
     color: #dddd06;
     display: inline;
 }
-}
+
 
 /*------------------Prices-----------*/
+
+#hashtag-image {
+    width: 40%;
+    padding-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#likes-image {
+    width: 65%;
+    padding-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
 
 .price-box {
     height: 300px;
@@ -230,4 +265,19 @@ footer {
 
 .footer-links:hover {
     color: #dddd06;
+}
+
+/*------------------Media Queries-----------*/
+
+@media only screen and (min-width: 600px) {
+
+    .nav-large, ul, ul li, ul li span, .hvr-box-shadow-outset{
+        visibility:visible;
+        display: inline-block;
+    }
+
+    .dropdown {
+    visibility: hidden;
+    display: none;
+}
 }
