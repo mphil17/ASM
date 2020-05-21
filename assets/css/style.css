@@ -13,7 +13,7 @@ h2 {
 }
 
 section {
-    height: 400px;
+    height: 50em;
 }
 
 section .sub-title {
@@ -23,18 +23,21 @@ section .sub-title {
 
 /*------------------navigation bar-----------*/
 
-.nav-large {
+.nav-overall {
+    background-color: #03045E;
+    padding-top: 0px;
+    padding-right: 100px;
+    margin: 0;
+}
+
+.navbar-large {
     visibility: hidden;
     display: none;
-    background-color: #03045E;
-    width: 92%!important;
-    padding-top: 0px;
-    padding-right: 100px!important;
-    margin: 0;
 }
 
 .dropdown {
     display: inline;
+    visibility: visible;
     float: right;
 }
 
@@ -49,9 +52,10 @@ ul {
 
 #logo {
     background-color: #343738;
-    display: inline;
+    display: inline-block;
     text-align: center;
     padding: 5px 20px;
+    height: 100%;
 }
 
 #logo a {
@@ -269,9 +273,9 @@ footer {
 
 /*------------------Media Queries-----------*/
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1080px) {
 
-    .nav-large, ul, ul li, ul li span, .hvr-box-shadow-outset{
+    .navbar-large, ul, ul li, ul li span, .hvr-box-shadow-outset{
         visibility:visible;
         display: inline-block;
     }
@@ -279,5 +283,9 @@ footer {
     .dropdown {
     visibility: hidden;
     display: none;
+}
+
+#logo {
+    height: 50%;
 }
 }
