@@ -20,6 +20,19 @@ section .sub-title {
     font-size: 40px;
 } 
 
+/*fix the index.html which added padding*/
+
+.col-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+/*stop overflow to the right on mobile device*/
+.row {
+    margin: 0px!important;
+}
+
 
 /*------------------navigation bar-----------*/
 
@@ -27,7 +40,7 @@ section .sub-title {
     background-color: #03045E;
     padding-top: 0px;
     padding-right: 100px;
-    margin: 0;
+    margin-right: 0!important;
 }
 
 .navbar-large {
@@ -38,9 +51,13 @@ section .sub-title {
 .dropdown {
     display: inline;
     visibility: visible;
-    float: right;
 }
 
+.btn {
+    border-radius: 0px;
+    background-color: #343434;
+    border-color: rgb(0, 86, 133);
+}
 
 
 
@@ -135,8 +152,8 @@ ul li span {
 /*------------------About me-----------*/
 
 #my-photo {
-    width: 70%;
-    height: 70%%;
+    width: 25rem;
+    height: 15rem;
     padding-top: 50px;
 }
 
@@ -183,7 +200,8 @@ ul li span {
 .price-box {
     height: 300px;
     width: 100%;
-    margin: 10px;
+    margin: 0;
+    padding: 0px 20px 40px 20px;
     opacity: 0.8;
 }
 
@@ -194,7 +212,6 @@ ul li span {
 
 #silver {
     background-color: rgba(175, 172, 172, 0.8);
-    margin: 0px 10px;
     padding-bottom: 40px;
 }
 
@@ -272,6 +289,8 @@ footer {
 }
 
 /*------------------Media Queries-----------*/
+
+/*---------long navbar disappears before going on to a second row and is replaced by dropdown menu-----*/
 
 @media only screen and (min-width: 1080px) {
 
