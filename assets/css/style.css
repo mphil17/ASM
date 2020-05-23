@@ -7,17 +7,29 @@ p, h2, h3, span{
     font-family: "Roboto", sans-serif;
 }
 
+p {
+/*the text is too tight to the edge on mobile- push it away*/
+    padding: 0px 10px;
+}
+
 h2 {
     text-align: center;
     padding: 20px;
 }
 
 section {
-    height: 50em;
+    height: 56em;
+}
+
+footer {
+/*push footer down slightly*/    
+    margin-top: 2px;
 }
 
 section .sub-title {
     font-size: 40px;
+/*center and push down*/    
+    padding: 20px 0px;
 } 
 
 /*fix the index.html which added padding*/
@@ -33,6 +45,10 @@ section .sub-title {
     margin: 0px!important;
 }
 
+div .image {
+/*make the images full width on mobile*/    
+    padding: 0px;
+}
 
 /*------------------navigation bar-----------*/
 
@@ -115,14 +131,6 @@ ul li span {
     background-color:rgb(0, 86, 133);
 }
 
-.bottom-section {
-    background-image: url("../images/social-media.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    /*if background image doesn't load*/
-    background-color:#343738;
-}
 
 #title {
     text-align: center;
@@ -137,6 +145,15 @@ ul li span {
 
 
 /*------------------second section-----------*/
+
+.bottom-section {
+    background-image: url("../images/social-media.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*if background image doesn't load*/
+    background-color:#343738;
+}
 
 .stats {
     padding-top: 50px;
@@ -161,14 +178,6 @@ ul li span {
     margin-top: 20px;
 }
 
-.offer {
-    text-align: center;
-}
-
-.free-offer {
-    text-transform: uppercase;
-    color: #dddd06;
-}
 
 .stats i {
     text-align: center;
@@ -180,22 +189,18 @@ ul li span {
 /*------------------Prices-----------*/
 
 #hashtag-image {
-    width: 40%;
-    padding-top: 40px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    height: 400px;
 }
 
 
 #likes-image {
-    width: 65%;
-    padding-top: 40px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    height: 200px;
 }
-}
+
 
 .price-box {
     height: 300px;
@@ -218,6 +223,7 @@ ul li span {
 #gold {
     background-color: rgba(226, 193, 4, 0.8);
     padding-bottom: 40px;
+    overflow: hidden;
 }
 
 .price-text {
@@ -233,6 +239,19 @@ ul li span {
     text-align: center;
 }
 
+#special {
+    padding: 20px 0px;
+}
+
+.offer {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.free-offer {
+    text-transform: uppercase;
+    color: #dddd06;
+}
 
 /*------------------Contact-----------*/
 
@@ -306,5 +325,18 @@ footer {
 
 #logo {
     height: 50%;
+}
+
+#hashtag-image {
+    width: 40%;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#likes-image {
+    width: 65%;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 }
