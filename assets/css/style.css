@@ -1,150 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Roboto&display=swap');
 
-/*------------------general-----------*/
-p, h2, h3, span{
+/*-----------------general--------------------*/
+
+/*set the default font and colour for the website*/
+body {
     color:#fafafa;
     font-size: 20px;
     font-family: "Roboto", sans-serif;
 }
 
-p {
-/*the text is too tight to the edge on mobile- push it away*/
-    padding: 0px 10px;
+.top-section .bottom-section {
+    max-height: 900px;
 }
 
-h2 {
-    text-align: center;
-    padding: 20px;
-}
-
-section {
-    height: 900px;
-}
-
-footer {
-/*push footer down slightly*/    
-    margin-top: 2px;
-}
-
-section .sub-title {
-    font-size: 40px;
-/*center and push down*/    
-    padding: 20px 0px;
-} 
-
-/*fix the index.html which added padding*/
-
-.col-12 {
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-
-/*stop overflow to the right on mobile device*/
-.row {
-    margin: 0px!important;
-}
-
-div .image {
-/*make the images full width on mobile*/    
-    padding: 0px;
-}
-
-/*------------------navigation bar-----------*/
-
-.nav-overall {
-    background-color: #03045E;
-    padding-top: 0px;
-    padding-right: 100px;
-    margin-right: 0!important;
-}
-
-.navbar-large {
-    visibility: hidden;
-    display: none;
-}
-
-.dropdown {
-    display: inline;
-    visibility: visible;
-}
-
-.btn-style {
-    border-radius: 0px;
-    background-color: #343434;
-    border-color: rgb(0, 86, 133);
-}
-
-
-
-ul {
-    float: right;
-    visibility: hidden;
-    display: none;
-}
-
-#logo {
-    background-color: #343738;
-    display: inline-block;
-    text-align: center;
-    padding: 5px 20px;
-    height: 100%;
-}
-
-#logo a {
-    color: #fafafa;
-    font-size: 70px;
-    letter-spacing: -15px;
-    text-decoration: none;
-}
-
-
-
-ul li {
-    font-family: "Baloo2", sans-serif;
-    padding: 30px 50px;
-    background-color: rgba(52, 214, 255, 0.2);
-    text-align: center;
-    height: 100px;
-    margin: 0;
-    visibility: hidden;
-    display: none;
-}
-
-ul li span {
-    text-decoration: none;
-    font-size: 25px;
-    color: #fafafa;
-    visibility: hidden;
-    display: none;
-}
-
-
-.hvr-box-shadow-outset {
-    vertical-align: baseline;
-    visibility: hidden;
-    display: none;
-}
-
-/*------------------first section-----------*/
 .top-section {
     background-color:rgb(0, 86, 133);
 }
-
-
-#title {
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 5em;
-    color: #fafafa;
-}
-
-.main-heading {
-    padding: 30px;
-}
-
-
-/*------------------second section-----------*/
 
 .bottom-section {
     background-image: url("../images/social-media.jpg");
@@ -155,190 +25,35 @@ ul li span {
     background-color:#343738;
 }
 
-.stats {
-    padding-top: 50px;
-}
 
-.stat-given {
-    margin: auto;
-    width: 100%;
-    position: absolute;
-    
-}
+/*----------------navbar-------------------*/
 
-/*------------------About me-----------*/
-
-#my-photo {
-    width: 25rem;
-    height: 15rem;
-    padding-top: 50px;
-}
-
-.about-me {
-    margin-top: 20px;
-}
-
-
-.stats i {
+/*style the logo*/
+.logo {
+    background-color: #343738;
     text-align: center;
-    color: #dddd06;
-    display: inline;
-}
-
-
-/*------------------Prices-----------*/
-
-#hashtag-image {
-    display: block;
-    width: 100%;
-    height: 400px;
-}
-
-
-#likes-image {
-    display: block;
-    width: 100%;
-    height: 200px;
-}
-
-
-.price-box {
-    height: 300px;
-    width: 100%;
-    margin: 0;
-    padding: 0px 20px 40px 20px;
-    opacity: 0.8;
-}
-
-#bronze {
-    background-color: rgba(197, 123, 52, 0.8);
-    padding-bottom: 40px;
-}
-
-#silver {
-    background-color: rgba(175, 172, 172, 0.8);
-    padding-bottom: 40px;
-}
-
-#gold {
-    background-color: rgba(226, 193, 4, 0.8);
-    padding-bottom: 40px;
-    overflow: hidden;
-}
-
-.price-text {
-    color: #141414;
-    text-align: center;
-    margin: 0;
-    padding-bottom: 5px;
-}
-
-.price-details {
-    margin-left: 20px;
-    width: 300px;
-    text-align: center;
-}
-
-#special {
-    padding: 20px 0px;
-}
-
-.offer {
-    text-align: center;
-    padding-top: 30px;
-}
-
-.free-offer {
-    text-transform: uppercase;
-    color: #dddd06;
-}
-
-/*------------------Contact-----------*/
-
-input {
-    width: 300px;
-}
-
-.contact-form {
-    text-align: center;
-}
-
-.message-box {
-    height: 100px;
-}
-
-.label {
+    padding: 5px 20px;
+    height: 100%;
     color: #fafafa;
-    font-family: "Roboto", sans-serif;
-}
-
-.submit-btn {
-    color: #141414;
-    background-color: #dddd06;
+    font-size: 70px;
+    letter-spacing: -15px;
     border-radius: 5px;
-    width: 190px;
-    margin-top: 20px;
 }
 
-.submit-btn:hover {
-    background-color: #016901;
-    color: #fafafa; 
+/*change the background colour of the navbar*/
+.navbar-custom {
+    background-color: #03045E;
 }
 
-/*------------------FAQ-----------*/
-
-
-
-/*------------------Footer-----------*/
-
-footer {
-    background-color: #007cbe;
-    height: 50px;
-}
-
-.footer-links {
+/*change the li items*/
+.nav-item-custom {
+    font-family: "Baloo2", sans-serif;
+    padding: 30px 50px;
+    font-size: 25px;
     color: #fafafa;
-    font-size: 15px;
-    font-family: "Roboto", sans-serif;
-    float: right;
-    padding: 10px;
-    text-decoration: none!important;
 }
 
-.footer-links:hover {
-    color: #dddd06;
-}
-
-/*------------------Media Queries-----------*/
-
-/*---------long navbar disappears before going on to a second row and is replaced by dropdown menu-----*/
-
-@media only screen and (min-width: 1080px) {
-
-    .navbar-large, ul, ul li, ul li span, .hvr-box-shadow-outset{
-        visibility:visible;
-        display: inline-block;
-    }
-
-    .dropdown {
-    visibility: hidden;
-    display: none;
-}
-
-#logo {
-    height: 50%;
-}
-
-#hashtag-image {
-    width: 40%;
-    padding-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-}
-#likes-image {
-    width: 65%;
-    padding-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-}
+/*change the colour of the collpasible menu*/
+.collapse-custom {
+    color: #fafafa;
 }
