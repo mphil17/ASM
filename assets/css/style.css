@@ -25,6 +25,22 @@ body {
     background-color:#343738;
 }
 
+.sub-title {
+    text-align: center;
+    font-size: 40px;
+    /*push content down*/
+    padding: 20px 0px;
+}
+
+.h3-custom {
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.general-writing {
+    padding: 10px 10px 50px 10px;
+}
+
 
 /*----------------navbar-------------------*/
 
@@ -43,6 +59,7 @@ body {
 /*change the background colour of the navbar*/
 .navbar-custom {
     background-color: #03045E;
+    color: #fafafa;
 }
 
 /*change the li items*/
@@ -56,4 +73,164 @@ body {
 /*change the colour of the collpasible menu*/
 .collapse-custom {
     color: #fafafa;
+}
+
+
+/*----------------home-------------------*/
+
+.title {
+    text-align: center;
+    font-size: 5em;
+    padding: 30px;
+}
+
+.stat-given {
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+
+.stat-name {
+    font-size: 20px;
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/*----------------about me-------------------*/
+
+.my-photo {
+    max-width: 100%;
+    padding-top: 50px;
+}
+
+.about-me {
+    margin-top: 20px;
+}
+
+
+/*----------------prices-------------------*/
+
+
+.hashtag-image {
+    max-width: 100%;
+}
+
+
+.likes-image {
+    max-width: 100%;
+}
+
+/*bronze, silver and gold boxes*/
+.price-box {
+    height: 300px;
+    width: 100%;
+    margin: 0;
+    padding: 0px 20px 40px 20px;
+    opacity: 0.8;
+}
+
+.bronze {
+    background-color: rgba(197, 123, 52, 0.8);
+    padding-bottom: 40px;
+}
+
+.silver {
+    background-color: rgba(175, 172, 172, 0.8);
+    padding-bottom: 40px;
+}
+
+.gold {
+    background-color: rgba(226, 193, 4, 0.8);
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+
+/*general rules for all text in the price boxes*/
+.price-text {
+    color: #141414;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+/*text telling you what you get for your money needs a different margin*/
+.price-details {
+    margin-left: 20px;
+}
+
+/*colour of the font-awesome fonts*/
+.price-tick {
+    color: green;
+}
+
+/*leave a gap between 'Prices' and 'special offer'*/
+.special {
+    padding: 20px 0px;
+}
+
+/*rules for the line with the offer*/
+.offer {
+    text-align: center;
+    padding-top: 30px;
+}
+
+/*specifically the word 'free'*/
+.free-offer {
+    text-transform: uppercase;
+    color: #dddd06;
+}
+
+
+/*------------------Contact-----------*/
+
+input {
+    width: 300px;
+}
+
+.contact-form {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.message-box {
+    height: 100px;
+}
+
+.label {
+    color: #fafafa;
+    font-family: "Roboto", sans-serif;
+}
+
+.submit-btn {
+    color: #141414;
+    background-color: #dddd06;
+    border-radius: 5px;
+    width: 190px;
+    margin-top: 20px;
+}
+
+.submit-btn:hover {
+    background-color: #016901;
+    color: #fafafa; 
+}
+
+
+/*----------------footer-------------------*/
+
+.footer-custom {
+     background-color: #01a4b9;
+}
+
+.footer-links {
+    color: #fafafa;
+    font-size: 15px;
+    float: right;
+    padding: 10px;
+    text-decoration: none!important;
+}
+
+.footer-links:hover {
+    color: #dddd06;
 }
