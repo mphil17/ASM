@@ -29,7 +29,7 @@ body {
     text-align: center;
     font-size: 40px;
     /*push content down*/
-    padding: 20px 0px;
+    padding: 40px 0px;
 }
 
 .h3-custom {
@@ -38,7 +38,7 @@ body {
 }
 
 .general-writing {
-    padding: 10px 10px 50px 10px;
+    padding: 10px 0px 50px 0px;
 }
 
 
@@ -81,20 +81,78 @@ body {
 .title {
     text-align: center;
     font-size: 5em;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 60px;
 }
 
 .stat-given {
     margin: auto;
     width: 100%;
     position: relative;
+    text-align: center;
+}
+
+.stat-logo {
+     border-radius: 50%;
+     width: 200px;
+     height: 200px;
+     display: inline-block;
+    /*leaves a gap between circles*/
+     margin-bottom: 50px;
+}
+
+.stat-logo-one {
+    border: 10px solid #03045E;
+    background-color: rgba(224, 224, 6, 0.8);
+}
+
+.stat-logo-two {
+    border: 10px solid #ffffffb9;
+    background-color: rgba(209, 29, 29, 0.8);
+}
+
+.stat-logo-three {
+    border: 10px solid #00f30cb9;
+    background-color: rgba(0, 128, 0, 0.8);
+}
+
+.stat-logo-four {
+    border: 10px solid #03045E;
+    background-color: rgba(255, 170, 248, 0.8);
 }
 
 .stat-name {
     font-size: 20px;
     position: absolute;
     font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    /*positions words over the top of circle container*/
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin: 0 auto;
 }
+
+.stat-name-one {
+    color: #141414;
+/*pushes content into centre of container*/
+    padding-top: 60px;
+}
+
+.stat-name-two {
+    color: #fafafa;
+/*pushes content into centre of container*/
+    padding-top: 60px;
+}
+
+.stat-name-three {
+    color: #fafafa;
+/*pushes content into centre of container*/
+    padding-top: 25px;
+}
+
+
 
 
 /*----------------about me-------------------*/
@@ -106,6 +164,12 @@ body {
 
 .about-me {
     margin-top: 20px;
+}
+
+.testa-container {
+    margin: 10px 5px;
+    background-color: rgba(20, 20, 20, 0.8);
+    border: 2px solid #141414;
 }
 
 
@@ -181,6 +245,10 @@ body {
     text-transform: uppercase;
     color: #dddd06;
 }
+
+
+/*------------------FAQ-----------*/
+
 
 
 /*------------------Contact-----------*/
