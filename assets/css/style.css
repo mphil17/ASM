@@ -177,18 +177,14 @@ body {
 
 
 .hashtag-image {
-    max-width: 100%;
+    width: 100%;
 }
 
-
-.likes-image {
-    max-width: 100%;
-}
 
 /*bronze, silver and gold boxes*/
 .price-box {
-    height: 300px;
-    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
     margin: 0;
     padding: 0px 20px 40px 20px;
     opacity: 0.8;
@@ -202,12 +198,17 @@ body {
 .silver {
     background-color: rgba(175, 172, 172, 0.8);
     padding-bottom: 40px;
+    max-width: 100%;
 }
 
 .gold {
     background-color: rgba(226, 193, 4, 0.8);
     padding-bottom: 40px;
-    overflow: hidden;
+}
+
+/*stop overflow of price boxes on mobile*/
+.price-container {
+    margin: 0px;
 }
 
 /*general rules for all text in the price boxes*/
@@ -215,8 +216,8 @@ body {
     color: #141414;
     text-align: center;
     font-family: "Roboto", sans-serif;
-    margin: 0;
     padding-bottom: 5px;
+    padding-top: 10px;
 }
 
 /*text telling you what you get for your money needs a different margin*/
@@ -232,6 +233,7 @@ body {
 /*leave a gap between 'Prices' and 'special offer'*/
 .special {
     padding: 20px 0px;
+    text-decoration: underline;
 }
 
 /*rules for the line with the offer*/
@@ -253,8 +255,18 @@ body {
 
 /*------------------Contact-----------*/
 
-input {
+.input-custom {
     width: 300px;
+}
+
+.likes-image-container {
+    visibility: hidden;
+    display: none;
+}
+
+.likes-image {
+
+    max-width: 100%;
 }
 
 .contact-form {
@@ -301,4 +313,16 @@ input {
 
 .footer-links:hover {
     color: #dddd06;
+}
+
+
+
+
+@media only screen and (min-width: 1080px)
+{
+.likes-image-container {
+    max-width: 100%;
+    visibility: visible;
+    display: block;
+}
 }
