@@ -259,6 +259,7 @@ body {
     width: 300px;
 }
 
+/*likes image invisible on smaller screens*/
 .likes-image-container {
     visibility: hidden;
     display: none;
@@ -317,7 +318,7 @@ body {
 
 
 
-
+/*make likes image on contact page only appear on larger screens*/
 @media only screen and (min-width: 1080px)
 {
 .likes-image-container {
