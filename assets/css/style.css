@@ -76,6 +76,7 @@ body {
 }
 
 
+
 /*----------------home-------------------*/
 
 .title {
@@ -256,7 +257,7 @@ body {
 /*------------------Contact-----------*/
 
 .input-custom {
-    width: 300px;
+    width: 70%;
 }
 
 /*likes image invisible on smaller screens*/
@@ -325,5 +326,9 @@ body {
     max-width: 100%;
     visibility: visible;
     display: block;
+}
+
+.input-custom {
+    width: 30%;
 }
 }
