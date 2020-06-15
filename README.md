@@ -21,9 +21,13 @@ https://mphil17.github.io/Milestone-Project-1-Social-Media/
 
 # User Experience
 
+<img src = "assets/images/responsive.jpg"/>
+
 ## Visual identity
 
 The colour scheme is mainly different shades of blue. This moves away from the initial wireframe because I felt that blue is a calming colour which gives the idea of professionalism. Those looking for Social Media marketing solutions would want a company who works with calm, organised professionalism. Other colours have been used to make them stand out against the background.
+
+The picture in the background in the second section breaks up the colours well and adds to the look of the website.
 
 The page is responsive so that users of small and larger screens can use it effectively. 
 
@@ -74,3 +78,5 @@ The technologies (wesbites and libraries) used on this project were:
 - Font-Awesome
 - Hover.css
 - Pixels.com
+
+## Acknowledgements
