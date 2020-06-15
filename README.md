@@ -1,39 +1,76 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<img src = "assets/images/asm logo.jpg"/>
 
-Welcome mphil17,
+# Absolute Social Media 
+Absolute Social Media is a company that helps small businesses to have a presence on Social Media sites. We get paid monthly to put posts on the company's accounts.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## Description
 
-## Gitpod Reminders
+This website is for the business 'Absolute Social Media.' It exists to promote the business, as a way for small businesses to view what can be offered to them and a medium to contact the company.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Here are the wireframes that I was working from:
 
-`python3 -m http.server`
+<img src = "assets/images/Home.png"/>
+<img src = "assets/images/About Me.png"/>
+<img src = "assets/images/Prices.png"/>
+<img src = "assets/images/FAQ.png"/>
+<img src = "assets/images/Contact.png"/>
 
-A blue button should appear to click: *Make Public*,
+Here is a link to the live site:
 
-Another blue button should appear to click: *Open Browser*.
+https://mphil17.github.io/Milestone-Project-1-Social-Media/
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# User Experience
 
-A blue button should appear to click: *Make Public*,
+## Visual identity
 
-Another blue button should appear to click: *Open Browser*.
+The colour scheme is mainly different shades of blue. This moves away from the initial wireframe because I felt that blue is a calming colour which gives the idea of professionalism. Those looking for Social Media marketing solutions would want a company who works with calm, organised professionalism. Other colours have been used to make them stand out against the background.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+The page is responsive so that users of small and larger screens can use it effectively. 
 
-## Updates Since The Instructional Video
+The logo remains in the top left with the navigation bar remaining at the top and the footer at the bottom.
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+## User Stories
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Users of the website will be small businesses looking for marketing solutions.
+They will want:
+- To be reassured that the company is professional
+- To understand a little more why social media marketing is necessary
+- To know the pricing structure
+- To be able to contact ASM
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+To achieve these goals, I have:
+- Created an 'About Me' page
+- Added statistics about social media use
+- Added a prices page with clear pricing structure
+- Added a contact page to contact through email
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Features
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+The site does not need too many features as it is informational in the main. It does have:
 
---------
+- A contact page so that businesses can contact the company
 
-Happy coding!
+## Testing
+
+The site was tested on the W3C Validator and any bugs resolved.
+
+The site's speed was tested using Pingdom.
+
+The site's versatility on different browsers was checked using Browser Stack.
+
+## Scalability
+
+Features that were identified as being outside the scope at this stage but could be addressed in the future:
+- Businesses may want to pay online and so could click on prices and be funnelled into Paypal etc.
+- Contact page does not currently go anywhere and can do in the future.
+- The site could have more animation to make it stand out mroe from the competition.
+
+## Technologies
+
+The technologies (wesbites and libraries) used on this project were:
+- Bootstrap
+- JQuery
+- Google Fonts
+- Font-Awesome
+- Hover.css
+- Pixels.com
