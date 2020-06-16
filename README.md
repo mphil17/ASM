@@ -58,9 +58,13 @@ The site does not need too many features as it is informational in the main. It 
 
 The site was tested on the W3C Validator and any bugs resolved.
 
-The site's speed was tested using Pingdom.
+The site's speed was tested using Pingdom. Results:
 
-The site's versatility on different browsers was checked using Browser Stack.
+<img src = "assets/images/pingdom.png"/>
+
+The site's versatility on different browsers was checked using Browser Stack. The website works less well on older browsers. Results:
+
+<img src = "assets/images/browser.png"/>
 
 ## Scalability
 
@@ -80,3 +84,7 @@ The technologies (wesbites and libraries) used on this project were:
 - Pixels.com
 
 ## Acknowledgements
+
+Thank you to Chris Towland for the idea for the website and the wording for the privacy policy.
+
+Thank you to [Felipe Souza Alarcon](https://github.com/felipe-alarcon) for your invaluable help as a mentor.
