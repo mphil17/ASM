@@ -7,8 +7,17 @@ Absolute Social Media is a company that helps small businesses to have a presenc
 
 This website is for the business 'Absolute Social Media.' It exists to promote the business, as a way for small businesses to view what can be offered to them and a medium to contact the company.
 
-[Here](assets/wireframes) are the wireframes that I was working from:
+Here are the wireframes that I was working from:
 
+[Home](assets/wireframes/Home.png) 
+
+[About](assets/wireframes/About-Me.png) 
+
+[Prices]((assets/wireframes/Prices.png) )
+
+[FAQ]((assets/wireframes/FAQ.png) )
+
+[Contact]((assets/wireframes/Contact.png) )
 
 
 Here is a link to the live site:
