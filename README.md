@@ -88,6 +88,26 @@ The technologies (wesbites and libraries) used on this project were:
 - Hover.css
 - Pixels.com
 
+## Deployment
+
+The site was deployed using GitHub Pages. I did this by:
+
+1. Going to Settings
+2. Scrolling down to the GitHub Pages section
+3. Choosing master branch as the source
+
+If you would like to clone the repository locally, you can do it like this:
+
+1. On GitHub, navigate to the main page of the repository.
+2. Under the repository name, click Clone or download.
+3. To clone the repository using HTTPS, under "Clone with HTTPS", click the folder icon. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the folder icon.
+4. Open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory.
+6. Type git clone, and then paste the URL you copied earlier.
+7. Press Enter to create your local clone.
+
+(taken from GitHub help)
+
 ## Acknowledgements
 
 Thank you to Chris Towland for the idea for the website and the wording for the privacy policy.
