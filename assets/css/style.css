@@ -82,8 +82,7 @@ body {
 .title {
     text-align: center;
     font-size: 4em;
-    padding-top: 30px;
-    padding-bottom: 60px;
+    padding: 30px 10px 60px 10px;
 }
 
 .stat-given {
@@ -325,6 +324,12 @@ body {
 
 .footer-links:hover {
     color: #dddd06;
+}
+
+/*----------------privacy statement-------------------*/
+
+.privacy-writing {
+    padding: 0px 10px;
 }
 
 
