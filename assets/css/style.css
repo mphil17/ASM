@@ -346,4 +346,9 @@ body {
 .input-custom {
     width: 30%;
 }
+
+.my-photo {
+    max-width: 40%;
+    max-height: 40%;
+}
 }
