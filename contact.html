@@ -12,6 +12,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Absolute Social Media</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+   (function(){
+      emailjs.init("user_66gflTwE5VcaEl9wSOZxp");
+   })();
+</script>
+<script src="assets/js/sendEmail.js"></script>
 </head>
 <body>
  <header>
@@ -73,7 +82,7 @@
     
     <section class="bottom-section">
     <div class="container-fluid contact-form">
-        <form action="#" method="post" target= "_blank">
+        <form action="#" target= "_blank" onsubmit = "return sendMail(this);">
             <div class = "form-group">
                 <label for="name" class="label">Name</label>
             </div>
